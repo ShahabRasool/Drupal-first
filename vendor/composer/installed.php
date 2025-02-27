@@ -352,6 +352,15 @@
                 0 => '11.1.3',
             ),
         ),
+        'drupal/linked_field' => array(
+            'pretty_version' => '1.6.0-rc1',
+            'version' => '1.6.0.0-RC1',
+            'reference' => '8.x-1.6-rc1',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/linked_field',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/recommended-project' => array(
             'pretty_version' => '1.0.0+no-version-set',
             'version' => '1.0.0.0',
