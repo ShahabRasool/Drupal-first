@@ -1679,6 +1679,58 @@
             "install-path": "../../web/modules/contrib/linked_field"
         },
         {
+            "name": "drupal/view_mode_switch",
+            "version": "2.1.1",
+            "version_normalized": "2.1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/view_mode_switch.git",
+                "reference": "2.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/view_mode_switch-2.1.1.zip",
+                "reference": "2.1.1",
+                "shasum": "1ff901c3e3cd6e0bb5d2e459fccb61c88532d749"
+            },
+            "require": {
+                "drupal/core": "^10.2 || ^11"
+            },
+            "require-dev": {
+                "drupal/diff": "^1.4",
+                "drupal/paragraphs": "^1.18"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.1",
+                    "datestamp": "1726140686",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "hctom",
+                    "homepage": "https://www.drupal.org/user/112790"
+                }
+            ],
+            "description": "Provides a field type that allows editors to switch view modes.",
+            "homepage": "https://drupal.org/project/view_mode_switch",
+            "support": {
+                "source": "https://git.drupalcode.org/project/view_mode_switch",
+                "issues": "https://drupal.org/project/view_mode_switch"
+            },
+            "install-path": "../../web/modules/contrib/view_mode_switch"
+        },
+        {
             "name": "drush/drush",
             "version": "13.3.3",
             "version_normalized": "13.3.3.0",
