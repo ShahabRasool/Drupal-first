@@ -1,0 +1,11 @@
+uuid: 117086ae-eed5-4db5-8241-b8f0755ec014
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.imagelink
+label: imagelink
+description: ''
+targetEntityType: block_content
+cache: true

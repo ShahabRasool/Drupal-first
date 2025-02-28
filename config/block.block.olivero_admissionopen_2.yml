@@ -1,0 +1,30 @@
+uuid: 704f736b-e877-4c1e-b073-613b230cef3c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:15e1f6ce-60d1-456d-82c3-ff503bb664f0'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_admissionopen_2
+theme: olivero
+region: footer_bottom
+weight: 0
+provider: null
+plugin: 'block_content:15e1f6ce-60d1-456d-82c3-ff503bb664f0'
+settings:
+  id: 'block_content:15e1f6ce-60d1-456d-82c3-ff503bb664f0'
+  label: 'Admission Open'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n/node/3"

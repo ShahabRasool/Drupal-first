@@ -1,0 +1,40 @@
+uuid: 0d97e388-4876-4598-8631-0146ff5dc258
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.favourite_student
+    - field.field.block_content.favourite_student.field_date
+    - field.field.block_content.favourite_student.field_select_student
+  module:
+    - datetime
+id: block_content.favourite_student.default
+targetEntityType: block_content
+bundle: favourite_student
+mode: default
+content:
+  field_date:
+    type: datetime_default
+    weight: 27
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_select_student:
+    type: entity_reference_autocomplete
+    weight: 26
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

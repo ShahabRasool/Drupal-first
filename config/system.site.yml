@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: d48594c2-12bc-4500-964b-24259c6dc107
+name: 'Welcome To DDCDP23'
+mail: shahabrasool12@gmail.com
+slogan: 'We love Drupal'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

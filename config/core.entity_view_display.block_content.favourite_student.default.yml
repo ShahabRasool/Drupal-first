@@ -1,0 +1,34 @@
+uuid: 71556b54-7ca4-446e-89bb-8b00b87bd6d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.favourite_student
+    - field.field.block_content.favourite_student.field_date
+    - field.field.block_content.favourite_student.field_select_student
+  module:
+    - datetime
+id: block_content.favourite_student.default
+targetEntityType: block_content
+bundle: favourite_student
+mode: default
+content:
+  field_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_select_student:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: studentfthername_dob
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

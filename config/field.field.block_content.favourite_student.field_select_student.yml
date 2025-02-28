@@ -1,0 +1,29 @@
+uuid: 16778db5-fb8c-46ef-976b-a49117227556
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.favourite_student
+    - field.storage.block_content.field_select_student
+    - node.type.student
+id: block_content.favourite_student.field_select_student
+field_name: field_select_student
+entity_type: block_content
+bundle: favourite_student
+label: 'Select Student'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      student: student
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

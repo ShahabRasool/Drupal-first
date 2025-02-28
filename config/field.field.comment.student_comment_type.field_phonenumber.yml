@@ -1,0 +1,23 @@
+uuid: 2ba3007a-c71f-4ede-b25c-ac8c71b775b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.student_comment_type
+    - field.storage.comment.field_phonenumber
+id: comment.student_comment_type.field_phonenumber
+field_name: field_phonenumber
+entity_type: comment
+bundle: student_comment_type
+label: PhoneNumber
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
