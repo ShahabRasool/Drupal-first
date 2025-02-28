@@ -1,0 +1,25 @@
+uuid: 305be1c2-26e3-446b-a0b5-93f70d040518
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:favourite_student:51b55216-a4e3-4a84-bfb3-0f2ae7c904f8'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_favouritestudenttoday
+theme: olivero
+region: footer_top
+weight: -9
+provider: null
+plugin: 'block_content:51b55216-a4e3-4a84-bfb3-0f2ae7c904f8'
+settings:
+  id: 'block_content:51b55216-a4e3-4a84-bfb3-0f2ae7c904f8'
+  label: 'Favourite Student Today'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

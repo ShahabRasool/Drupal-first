@@ -1,0 +1,90 @@
+uuid: 915f11c1-f9cd-4aa3-899f-a473b691752f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.student_comment_type.default
+    - field.field.node.student.field_address
+    - field.field.node.student.field_comments
+    - field.field.node.student.field_department
+    - field.field.node.student.field_dob
+    - field.field.node.student.field_email
+    - field.field.node.student.field_fathername
+    - field.field.node.student.field_social_media
+    - node.type.student
+  module:
+    - comment
+    - datetime
+    - link
+    - user
+id: node.student.default
+targetEntityType: node
+bundle: student
+mode: default
+content:
+  field_address:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_comments:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_department:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_dob:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_email:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_fathername:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_social_media:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

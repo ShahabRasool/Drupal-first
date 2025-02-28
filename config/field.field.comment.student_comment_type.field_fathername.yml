@@ -1,0 +1,19 @@
+uuid: 98898ff4-899f-48cd-b0e8-55d8558dafe0
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.student_comment_type
+    - field.storage.comment.field_fathername
+id: comment.student_comment_type.field_fathername
+field_name: field_fathername
+entity_type: comment
+bundle: student_comment_type
+label: Fathername
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

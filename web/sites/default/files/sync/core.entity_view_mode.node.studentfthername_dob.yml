@@ -1,0 +1,11 @@
+uuid: 9d6076b3-ed57-4db3-907b-11723635cbd9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.studentfthername_dob
+label: 'Studentfthername,dob'
+description: ''
+targetEntityType: node
+cache: true

@@ -1,0 +1,23 @@
+uuid: c172c755-682f-4273-b909-ec425875c79c
+langcode: en
+status: true
+dependencies:
+  module:
+    - devel
+  theme:
+    - olivero
+id: olivero_switchuser
+theme: olivero
+region: sidebar
+weight: -9
+provider: null
+plugin: devel_switch_user
+settings:
+  id: devel_switch_user
+  label: 'Switch user'
+  label_display: visible
+  provider: devel
+  list_size: 12
+  include_anon: false
+  show_form: true
+visibility: {  }

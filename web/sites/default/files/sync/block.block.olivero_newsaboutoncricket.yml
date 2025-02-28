@@ -1,0 +1,25 @@
+uuid: 3ed7c461-f401-4551-83fc-fa19cb713424
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:image:ef0ee140-55e6-4eb8-8125-423392aab973'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_newsaboutoncricket
+theme: olivero
+region: sidebar
+weight: -8
+provider: null
+plugin: 'block_content:ef0ee140-55e6-4eb8-8125-423392aab973'
+settings:
+  id: 'block_content:ef0ee140-55e6-4eb8-8125-423392aab973'
+  label: 'News About on Cricket'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

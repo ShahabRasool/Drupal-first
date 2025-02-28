@@ -1,0 +1,20 @@
+uuid: 44a0fa1c-d9fb-4aa2-ac9a-5038086b7d59
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - node
+id: block_content.field_select_student
+field_name: field_select_student
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

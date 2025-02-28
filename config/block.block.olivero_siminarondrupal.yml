@@ -1,0 +1,25 @@
+uuid: adcd26b7-f425-468f-94b4-47ab2373a2b2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:image:02d2895a-03e7-4436-a1ad-92e10fe57918'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_siminarondrupal
+theme: olivero
+region: sidebar
+weight: -7
+provider: null
+plugin: 'block_content:02d2895a-03e7-4436-a1ad-92e10fe57918'
+settings:
+  id: 'block_content:02d2895a-03e7-4436-a1ad-92e10fe57918'
+  label: 'Siminar on Drupal'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

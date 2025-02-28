@@ -1,0 +1,19 @@
+uuid: 7daefedc-afa2-46c4-8273-d041df3fd156
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_address
+    - node.type.student
+id: node.student.field_address
+field_name: field_address
+entity_type: node
+bundle: student
+label: Address
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

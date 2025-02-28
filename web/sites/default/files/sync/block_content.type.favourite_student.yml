@@ -1,0 +1,8 @@
+uuid: 0875d88b-8bad-4bc1-8f95-e946a31d5735
+langcode: en
+status: true
+dependencies: {  }
+id: favourite_student
+label: 'Favourite Student'
+revision: false
+description: null

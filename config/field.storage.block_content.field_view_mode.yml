@@ -1,0 +1,21 @@
+uuid: 3723faed-be16-4d4a-b8fa-80be50b74a32
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - view_mode_switch
+id: block_content.field_view_mode
+field_name: field_view_mode
+entity_type: block_content
+type: view_mode_switch
+settings:
+  origin_view_modes:
+    full: full
+module: view_mode_switch
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

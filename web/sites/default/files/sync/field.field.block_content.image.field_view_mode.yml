@@ -1,0 +1,24 @@
+uuid: 1086108c-b1ab-4464-bf48-99e0a9e95a13
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.image
+    - core.entity_view_mode.block_content.imagelink
+    - field.storage.block_content.field_view_mode
+  module:
+    - view_mode_switch
+id: block_content.image.field_view_mode
+field_name: field_view_mode
+entity_type: block_content
+bundle: image
+label: 'View Mode'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_view_modes:
+    imagelink: imagelink
+field_type: view_mode_switch
