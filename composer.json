@@ -23,6 +23,8 @@
         "drupal/core-recommended": "^11.1",
         "drupal/devel": "^5.3",
         "drupal/linked_field": "^1.6@RC",
+        "drupal/pathauto": "^1.13",
+        "drupal/token": "^1.15",
         "drupal/view_mode_switch": "^2.1",
         "drush/drush": "^13.3"
     },
